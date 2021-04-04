@@ -35,19 +35,27 @@
                 margin-right: 20px
 
         .header__input_text
+            position: absolute
+            right: 0
             width: 128px
             height: 24px
-            margin-left: 524px
             margin-top: 20px
+            margin-right: 116px
             border: none
 
         .header__serch_btn
+            position: absolute
+            right: 0
             width: 20px
-            margin-left: 25px
+            margin-top: 20px
+            margin-right: 71px
 
         .header__profile
+            position: absolute
+            right: 0
             width: 24px
-            margin-left: 25px
+            margin-top: 20px
+            margin-right: 20px
 
     .link_block
         display: flex
@@ -61,14 +69,15 @@
                 margin-left: 16px
 
     .wrapper
+        position: relative
         width: 1074px
         height: 211px
-        margin-top: 48px
-        margin-left: 158px
         border-radius: 16px
         background-color: rgba(4, 191, 147, 0.186)
         padding-left: 56px
         padding-top: 56px
+        margin: 0 auto
+        margin-top: 48px
 
         .wrapper__title
             @include font(800, 32px, 48px, #04BF94)
@@ -99,13 +108,13 @@
 
         .wrapper__image
             position: absolute
-            top: 170px
-            right: 400px 
+            right: 0
+            bottom: 0
 
     .main
         width: 1074px
+        margin: 0 auto
         margin-top: 48px
-        margin-left: 158px
 
         .section_new
             height: 416px
@@ -128,6 +137,47 @@
                         @include font(normal, 16px, 24px, #78787A)
                         box-sizing: border-box
                         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+
+        .section_top
+            width: 1074px
+            height: 661px
+            margin-top: 56px
+            border-top: 1px solid #C4C4C4
+
+            .section_top__text
+                @include font(bold, 14px, 24px, #91A0B6)
+                width: 1074px
+                height: 24px
+                margin-top: 16px
+                margin-bottom: 16px
+
+            .section_top__block
+                display: flex
+
+
+                .section_top__block_item_first
+                    margin-right: 32px
+
+                .section_top__block_item
+                    width: 521px
+                    height: 504px
+
+                    .section_top__block_date
+                        margin-top: 6px
+                        width: 151px
+
+                    .section_top__block_title
+                        margin-top: 8px
+                        width: 288px
+                        height: 36px
+
+                    .section_top__block_description
+                        margin-top: 8px
+                        width: 521px
+                        height: 48px
+
+
+
 
 
 
