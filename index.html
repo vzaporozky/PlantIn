@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <div class="body">
         <div class="header">
@@ -23,12 +24,16 @@
             <input type="text" class="header__input_text">
             <img src="assets/images/header/search.svg" alt="search.svg" class="header__serch_btn">
             <img src="assets/images/header/profile.png" alt="profile" class="header__profile">
+            <img src="assets/images/header/menu.svg" alt="menu" class="header__menu">
         </div>
 
         <ul class="link_block">
             <li class="link">Home <img src="assets/images/wrapper/chevron_left.svg" alt="arrow" class="link_arrow"></li>
             <li class="link">Blog <img src="assets/images/wrapper/chevron_left.svg" alt="arrow" class="link_arrow"></li>
         </ul>
+        <div class="link_block--mobile">
+            <img src="assets/images/wrapper/arrow_toleft.svg" alt="arrow" class="link_arrow"><div class="link">Home </div>
+        </div>
 
         <div class="wrapper">
             <div class="wrapper__title">Stay always tuned with planting trends</div>
@@ -49,6 +54,7 @@
                         <div class="section_new__description">Pruning, like any other skill, requires knowing what you are doing to achieve success. 
                             The old idea that anyone with a chain saw or a pruning saw can be a landscape pruner is far from the truth. 
                             More trees are killed or ruined each year from improper pruning than by pests. Remember that pruning is the removal or...</div>
+                        <div class="section_new__description--mobile">Pruning, like any other skill, requires knowing what you are doing to achieve success. The old idea that anyone with a chain saw or a pruning saw can be a...</div>
                     </div>
                 </div>
             </div>
@@ -98,21 +104,21 @@
                         <div class="section_inter__description description">Repotting a plant can seem like a difficult 
                             task because a lot of things can go wrong – you can damage...</div>
                     </div>
-                    <div class="section_inter__item">
+                    <div class="section_inter__item section_inter__item--none">
                         <img src="assets/images/section_inter/1.png" alt="image.png" class="section_inter__image image">
                         <div class="section_inter__date date">Feb 23 · 8 min read</div>
                         <div class="section_inter__title title">Watering mastery</div>
                         <div class="section_inter__description description">Repotting a plant can seem like a difficult 
                             task because a lot of things can go wrong – you can damage...</div>
                     </div>
-                    <div class="section_inter__item">
+                    <div class="section_inter__item section_inter__item--none">
                         <img src="assets/images/section_inter/3.png" alt="image.png" class="section_inter__image image">
                         <div class="section_inter__date date">Feb 23 · 8 min read</div>
                         <div class="section_inter__title title">Professional Repot</div>
                         <div class="section_inter__description description">Repotting a plant can seem like a difficult 
                             task because a lot of things can go wrong – you can damage...</div>
                     </div>
-                    <div class="section_inter__item">
+                    <div class="section_inter__item section_inter__item--none">
                         <img src="assets/images/section_inter/2.png" alt="image.png" class="section_inter__image image">
                         <div class="section_inter__date date">Feb 23 · 8 min read</div>
                         <div class="section_inter__title title">Plant pot secrets</div>
@@ -132,21 +138,21 @@
 
                 
                 <div class="section_inter__block">
-                    <div class="section_inter__item">
+                    <div class="section_inter__item section_inter__item--none">
                         <img src="assets/images/section_inter/2.png" alt="image.png" class="section_inter__image image">
                         <div class="section_inter__date date">Feb 23 · 8 min read</div>
                         <div class="section_inter__title title">Watering mastery</div>
                         <div class="section_inter__description description">Repotting a plant can seem like a difficult 
                             task because a lot of things can go wrong – you can damage...</div>
                     </div>
-                    <div class="section_inter__item">
+                    <div class="section_inter__item section_inter__item--none">
                         <img src="assets/images/section_inter/3.png" alt="image.png" class="section_inter__image image">
                         <div class="section_inter__date date">Feb 23 · 8 min read</div>
                         <div class="section_inter__title title">Plant pot secrets</div>
                         <div class="section_inter__description description">Repotting a plant can seem like a difficult 
                             task because a lot of things can go wrong – you can damage...</div>
                     </div>
-                    <div class="section_inter__item">
+                    <div class="section_inter__item section_inter__item--none">
                         <img src="assets/images/section_inter/1.png" alt="image.png" class="section_inter__image image">
                         <div class="section_inter__date date">Feb 23 · 8 min read</div>
                         <div class="section_inter__title title">Professional Repot</div>
@@ -199,13 +205,13 @@
         </div>
 
     <footer class="footer">
-        <div class="footer__policy">
-            <div class="footer__list-item">Terms of Service</div>
-            <div class="footer__slash"></div>
-            <div class="footer__list-item">Privacy Policy</div>
-            <div class="footer__slash"></div>
-            <div class="footer__list-item">Subscription Policy</div>
-        </div>
+        <ul class="footer__policy">
+            <li class="footer__list-item">Terms of Service</li>
+            <li class="footer__slash"></li>
+            <li class="footer__list-item">Privacy Policy</li>
+            <li class="footer__slash"></li>
+            <li class="footer__list-item">Subscription Policy</li>
+        </ul>
 
         <div class="footer__copyright">©Copyright  © 2020 PlantIn. All rights reserved</div>
     </footer>
