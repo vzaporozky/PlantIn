@@ -1,0 +1,148 @@
+@import "_global.sass"
+@import "_mixin.sass"
+
+
+
+
+.body
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    background-color: #f0f0f0
+    
+    .header
+        display: flex
+        width: 100%
+        height: 64px
+        background-color: #ffffff
+
+        .header__logo
+            margin-top: 20px
+            margin-bottom: 20px
+            margin-left: 16px
+
+        .header__list_block
+            @include font(500, 16px, 24px, #262626)
+            position: relative
+            width: 498px
+            height: 24px
+            margin-left: 51px
+            margin-top: 20px
+            align-items: center
+
+            .header__list
+                margin-right: 20px
+
+        .header__input_text
+            width: 128px
+            height: 24px
+            margin-left: 524px
+            margin-top: 20px
+            border: none
+
+        .header__serch_btn
+            width: 20px
+            margin-left: 25px
+
+        .header__profile
+            width: 24px
+            margin-left: 25px
+
+    .link_block
+        display: flex
+        @include font(500, 16px, 24px, #91A0B6)
+        margin-top: 27px
+        margin-left: 158px
+
+        .link
+            margin-right: 16px
+            .link_arrow
+                margin-left: 16px
+
+    .wrapper
+        width: 1074px
+        height: 211px
+        margin-top: 48px
+        margin-left: 158px
+        border-radius: 16px
+        background-color: rgba(4, 191, 147, 0.186)
+        padding-left: 56px
+        padding-top: 56px
+
+        .wrapper__title
+            @include font(800, 32px, 48px, #04BF94)
+            width: 736px
+            height: 48px
+
+        .wrapper__subtitle
+            @include font(bold, 18px, 27px, #242424)
+            margin-top: 8px
+
+        .wrapper__serch_input
+            @include font(normal, 16px, 24px, #91A0B6)
+            width: 522px
+            height: 56px
+            border-radius: 16px
+            margin-top: 16px
+            border: none
+            padding-left: 16px
+
+        .wrapper__btn
+            position: relative
+            top: 9px
+            left: -45px
+            width: 20px
+            height: 20px
+            border-top-right-radius: 16px
+            border-bottom-right-radius: 16px
+
+        .wrapper__image
+            position: absolute
+            top: 170px
+            right: 400px 
+
+    .main
+        width: 1074px
+        margin-top: 48px
+        margin-left: 158px
+
+        .section_new
+            height: 416px
+            
+            .section_new__blog
+                display: flex
+
+                .section_new__blog_img
+                    width: 521px
+                    height: 364px
+                    border-radius: 12px
+
+                .section_new__blog_text
+                    margin-left: 32px
+
+                    .section_new__title
+                        @include font(bold, 48px, 72px, #242424)
+
+                    .section_new__description
+                        @include font(normal, 16px, 24px, #78787A)
+                        box-sizing: border-box
+                        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
